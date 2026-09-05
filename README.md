@@ -127,33 +127,33 @@ Start the Streamlit application with:
 
 ## 🔍 How Semantic Search Works
 Resume PDF
-    ↓
+    →
 Resume Parser
-    ↓
+    →
 Skills + Projects
-    ↓
+    →
 Query Creation
-    ↓
+    →
 Sentence Transformer Embeddings
-    ↓
+    →
 FAISS Similarity Search
-    ↓
+    →
 Top Matching Jobs
 
 
 ## 💬 How RAG Chatbot Works
 Career Notes
-     ↓
+     →
 Document Loading
-     ↓
+     →
 Text Chunking
-     ↓
+     →
 Local Embeddings
-     ↓
+     →
 FAISS Vector Store
-     ↓
+     →
 Relevant Chunks
-     ↓
+     →
 Gemini
-     ↓
+     →
 Final Answer
