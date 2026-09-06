@@ -1,6 +1,6 @@
 import google.generativeai as genai
-import numpy as np
-import faiss
+import numpy as np        # numpy converts numbers into arrays
+import faiss              # used for similarity search of vectors (Facebook AI Similarity Search)
 import os
 from dotenv import load_dotenv
 
@@ -55,16 +55,16 @@ def embed(text):                # converts text into embeddings
 
 job_embeddings = []
 
-for text in job_texts:          #to call function 'embed' for conversion
+for text in job_texts:          # calls 'embed' function for conversion
     embedding = embed(text)
     job_embeddings.append(embedding)
 
-job_vectors = np.array(job_embeddings).astype("float32")        # converts into numpy 
+job_vectors = np.array(job_embeddings).astype("float32")        # converts into numpy array
 faiss.normalize_L2(job_vectors)         # normalizes the vectors
 
 
-dim = job_vectors.shape[1]          #finds out the size of the embedding i.e 768
-index = faiss.IndexFlatIP(dim)      #index is used to store the vectors of size 'dim'
+dim = job_vectors.shape[1]          #finds out the size(no.of dimensions) of the embedding i.e 768
+index = faiss.IndexFlatIP(dim)      #index is used to store the vectors of size 'dim' and 'IndexFlatIP' for comapring inner products
 index.add(job_vectors)
 
 def find_matching_jobs(query, top_k=3):     # used to find out top 3 jobs
@@ -74,7 +74,7 @@ def find_matching_jobs(query, top_k=3):     # used to find out top 3 jobs
 
     faiss.normalize_L2(query_vector)
 
-    scores, indices = index.search(query_vector, top_k)
+    scores, indices = index.search(query_vector, top_k)     # compares the query vector against the stored job vectors
 
     matching_jobs = []
 
