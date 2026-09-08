@@ -1,4 +1,4 @@
-# 🤖 AI Career Assistant
+#  AI Career Assistant
 
 An AI-powered career assistant that combines **Resume Parsing, Semantic Job Matching, and a RAG-based Career Chatbot** into one Streamlit application.
 
@@ -6,9 +6,9 @@ The project uses **Google Gemini** for AI-powered text generation, **Sentence Tr
 
 ---
 
-🚀 Features
+ Features :
 
-### 📄 1. Resume Parsing
+###  1. Resume Parsing
 
 Upload a resume in PDF format and the application extracts important information such as:
 
@@ -22,7 +22,7 @@ Upload a resume in PDF format and the application extracts important information
 
 The extracted information is returned as structured JSON using Gemini.
 
-### 🔎 2. Semantic Job Search
+###  2. Semantic Job Search
 
 The uploaded resume is analyzed to extract the candidate's:
 
@@ -33,7 +33,7 @@ These details are converted into a semantic query and compared with job descript
 
 The system returns the most relevant job opportunities based on semantic similarity.
 
-### 💬 3. AI Career Mentor
+###  3. AI Career Mentor
 
 A RAG-based chatbot that answers career-related questions using a collection of career notes.
 
@@ -48,7 +48,7 @@ The system:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Streamlit
@@ -61,7 +61,7 @@ The system:
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 
                     AI Career Assistant
                            │
@@ -82,7 +82,7 @@ The system:
 
 
 
-## 📁 Project Structure
+##  Project Structure
 
 AI_Career_Assistant/
 │
@@ -98,7 +98,7 @@ AI_Career_Assistant/
     └── career_notes/
 
 
-## ⚙️ Installation
+##  Installation
 
   1. Clone the repository
       git clone <YOUR_GITHUB_REPOSITORY_URL>
@@ -113,19 +113,19 @@ AI_Career_Assistant/
       pip install -r requirements.txt
 
 
-## 🔑 Gemini API Key
+##  Gemini API Key
 
 Create a .env file in the project root:
     GEMINI_API_KEY=your_api_key_here
 
 
-## ▶️ Run the Application
+##  Run the Application
 
 Start the Streamlit application with:
   streamlit run app.py
 
 
-## 🔍 How Semantic Search Works
+##  How Semantic Search Works
 Resume PDF
     →
 Resume Parser
@@ -141,7 +141,7 @@ FAISS Similarity Search
 Top Matching Jobs
 
 
-## 💬 How RAG Chatbot Works
+##  How RAG Chatbot Works
 Career Notes
      →
 Document Loading
