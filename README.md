@@ -22,7 +22,26 @@ Upload a resume in PDF format and the application extracts important information
 
 The extracted information is returned as structured JSON using Gemini.
 
-###  2. Semantic Job Search
+### 2. Resume Improvement
+
+The Resume Improvement feature analyzes the extracted resume information and identifies missing sections.
+
+It provides suggestions such as:
+
+- Adding a professional summary
+- Adding relevant projects
+- Adding internships or practical experience
+- Adding soft skills
+- Adding certifications
+- Adding achievements
+- Adding GitHub, LinkedIn, or portfolio links
+- Adding relevant technical skills
+
+The system only suggests sections that are missing from the resume.
+
+---
+
+###  3. Semantic Job Search
 
 The uploaded resume is analyzed to extract the candidate's:
 
@@ -33,7 +52,7 @@ These details are converted into a semantic query and compared with job descript
 
 The system returns the most relevant job opportunities based on semantic similarity.
 
-###  3. AI Career Mentor
+###  4. AI Career Mentor
 
 A RAG-based chatbot that answers career-related questions using a collection of career notes.
 
@@ -61,41 +80,43 @@ The system:
 
 ---
 
-##  Architecture
-
-                    AI Career Assistant
-                           │
-              ┌────────────┼────────────┐
-              │            │            │
-              ▼            ▼            ▼
-        Resume Parser   Semantic Search   RAG Chatbot
-              │            │            │
-              ▼            ▼            ▼
-           Gemini       Embeddings      Career Notes
-                           │            │
-                           ▼            ▼
-                         FAISS        FAISS
-              │            │            │
-              └────────────┼────────────┘
-                           ▼
-                    Streamlit Interface
-
-
 
 ##  Project Structure
 
-AI_Career_Assistant/
+GenAI_Project/
 │
 ├── app.py
 ├── parse.py
+├── resume_improver.py
 ├── Semantic.py
 ├── rag.py
 ├── rag_langchain.py
-├── requirements.txt
-├── .gitignore
 │
-└── data/
-    └── career_notes/
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── .env
+│
+├── data/
+│   │
+│   ├── jobs/
+│   │   └── job.json
+│   │
+│   └── career_notes/
+│       ├── frontend.txt
+│       ├── interview.txt
+│       ├── java.txt
+│       ├── python.txt
+│       ├── AIML.txt
+│       ├── DSA.txt
+│       ├── Internships.txt
+│       ├── JavaScript.txt
+│       ├── backend_developer.txt
+│       ├── database.txt
+│       ├── github.txt
+│       └── ...
+│
+└── faiss_index/
 
 
 ##  Installation
@@ -105,10 +126,8 @@ AI_Career_Assistant/
       cd AI_Career_Assistant
   2. Create a virtual environment
       python -m venv venv
-
-  Activate it on Windows:
-      venv\Scripts\activate
-  
+     Activate it on Windows:
+         venv\Scripts\activate
   3.Install dependencies
       pip install -r requirements.txt
 
@@ -123,6 +142,32 @@ Create a .env file in the project root:
 
 Start the Streamlit application with:
   streamlit run app.py
+
+
+## How resume parsing works
+Resume PDF
+    →
+PyPDF2
+    →
+Extract Resume Text
+    →
+Gemini
+    →
+Structured Resume Data
+    →
+Display Resume Information
+
+
+## How resume improvement works
+Parsed Resume
+      →
+Check Resume Sections
+      →
+Identify Missing Sections
+      →
+Generate Suggestions
+      →
+Display Improvements
 
 
 ##  How Semantic Search Works
