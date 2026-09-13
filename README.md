@@ -121,7 +121,7 @@ GenAI_Project/
 
 
 ##  Installation
-
+ ```text
   1. Clone the repository
       git clone <YOUR_GITHUB_REPOSITORY_URL>
       cd AI_Career_Assistant
@@ -131,35 +131,38 @@ GenAI_Project/
          venv\Scripts\activate
   3.Install dependencies
       pip install -r requirements.txt
-
+ ```
 
 ##  Gemini API Key
-
+```text
 Create a .env file in the project root:
     GEMINI_API_KEY=your_api_key_here
-
+```
 
 ##  Run the Application
-
+```text
 Start the Streamlit application with:
   streamlit run app.py
+```
+
+### How project works
+Contains 4 modules:
+
+ ## 1.Resume parsing 
+ Resume PDF
+     →
+ PyPDF2
+    →
+ Extract Resume Text
+     →
+ Gemini
+     →
+ Structured Resume Data
+     →
+ Display Resume Information
 
 
-## How resume parsing works
-Resume PDF
-    →
-PyPDF2
-    →
-Extract Resume Text
-    →
-Gemini
-    →
-Structured Resume Data
-    →
-Display Resume Information
-
-
-## How resume improvement works
+## 2.Resume improvement
 Parsed Resume
       →
 Check Resume Sections
@@ -171,7 +174,7 @@ Generate Suggestions
 Display Improvements
 
 
-##  How Semantic Search Works
+## 3.Semantic Search 
 Resume PDF
     →
 Resume Parser
@@ -187,7 +190,7 @@ FAISS Similarity Search
 Top Matching Jobs
 
 
-##  How RAG Chatbot Works
+## 4.RAG Chatbot 
 Career Notes
      →
 Document Loading
