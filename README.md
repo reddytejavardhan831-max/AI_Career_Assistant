@@ -83,6 +83,7 @@ The system:
 
 ##  Project Structure
 
+```text
 GenAI_Project/
 │
 ├── app.py
@@ -98,7 +99,6 @@ GenAI_Project/
 ├── .env
 │
 ├── data/
-│   │
 │   ├── jobs/
 │   │   └── job.json
 │   │
@@ -117,6 +117,7 @@ GenAI_Project/
 │       └── ...
 │
 └── faiss_index/
+```
 
 
 ##  Installation
