@@ -25,6 +25,11 @@ class Resume(typing.TypedDict):     # defining the structure of output
     education: list[str]
     experience: list[str]
     projects: list[str]
+    soft_skills: list[str]
+    certifications: list[str]
+    achievements: list[str]
+    links: list[str]
+    summary: str
 
 
 # performs parsing of resume
@@ -46,6 +51,11 @@ def parse_resume(uploaded_file):
     - education
     - experience
     - projects
+    - soft_skills
+    - certifications
+    - achievements
+    - links
+    - summary
 
     Return all the information according to the provided JSON schema.
 
@@ -71,7 +81,7 @@ def parse_resume(uploaded_file):
     
     resume_data = json.loads(response.text)  # converting JSON to python
 
-    expected_keys = [ "name", "email", "phone", "skills", "education", "experience", "projects"]
+    expected_keys = [ "name", "email", "phone", "skills", "education", "experience", "projects","soft_skills","certifications","achievements","links","summary"]
     for key in expected_keys:
         resume_data.setdefault(key, None)
 

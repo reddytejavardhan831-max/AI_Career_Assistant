@@ -1,0 +1,82 @@
+[
+    {
+        "role": "Java Backend Developer",
+        "skills": "Java, Spring Boot, SQL, REST API"
+    },
+    {
+        "role": "Frontend Developer",
+        "skills": "HTML, CSS, JavaScript, React"
+    },
+    {
+        "role": "Python Developer",
+        "skills": "Python, Django, Flask, SQL"
+    },
+    {
+        "role": "Data Analyst",
+        "skills": "Python, SQL, Excel, Power BI"
+    },
+    {
+        "role": "Machine Learning Engineer",
+        "skills": "Python, Machine Learning, TensorFlow, Deep Learning"
+    },
+    {
+        "role": "Full Stack Developer",
+        "skills": "HTML, CSS, JavaScript, React, Node.js, SQL"
+    },
+    {
+        "role": "Backend Developer",
+        "skills": "Python, Java, Node.js, REST API, SQL"
+    },
+    {
+        "role": "DevOps Engineer",
+        "skills": "Linux, Docker, Kubernetes, AWS, CI/CD, Git"
+    },
+    {
+        "role": "Cloud Engineer",
+        "skills": "AWS, Azure, Cloud Computing, Linux, Docker"
+    },
+    {
+        "role": "Data Scientist",
+        "skills": "Python, SQL, Statistics, Machine Learning, Pandas"
+    },
+    {
+        "role": "AI Engineer",
+        "skills": "Python, Machine Learning, Deep Learning, LLM, NLP"
+    },
+    {
+        "role": "Android Developer",
+        "skills": "Java, Kotlin, Android Studio, XML, Firebase"
+    },
+    {
+        "role": "Software Engineer",
+        "skills": "Python, Java, Data Structures, Algorithms, Git"
+    },
+    {
+        "role": "Cybersecurity Analyst",
+        "skills": "Networking, Linux, Cybersecurity, Python, SIEM"
+    },
+    {
+        "role": "Database Administrator",
+        "skills": "SQL, MySQL, PostgreSQL, Database Management, Linux"
+    },
+    {
+        "role": "QA Engineer",
+        "skills": "Manual Testing, Automation Testing, Selenium, Java, SQL"
+    },
+    {
+        "role": "React Developer",
+        "skills": "HTML, CSS, JavaScript, React, Redux, Git"
+    },
+    {
+        "role": "UI/UX Developer",
+        "skills": "HTML, CSS, JavaScript, Figma, UI Design, UX Design"
+    },
+    {
+        "role": "Business Analyst",
+        "skills": "SQL, Excel, Power BI, Data Analysis, Communication"
+    },
+    {
+        "role": "Web Developer",
+        "skills": "HTML, CSS, JavaScript, Bootstrap, Git"
+    }
+]

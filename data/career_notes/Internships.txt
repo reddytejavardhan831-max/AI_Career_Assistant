@@ -1,0 +1,129 @@
+INTERNSHIPS — COMPLETE KNOWLEDGE BASE
+
+=====================================================
+1. WHY INTERNSHIPS MATTER
+=====================================================
+An internship is a temporary, structured work experience — usually for students or early-career candidates — designed to build real-world skills while working under professional guidance. For tech roles specifically, internships matter because:
+
+- They provide real production experience that personal projects can't fully replicate: working in an existing large codebase, following team conventions, and shipping code that real users depend on.
+- Many companies (especially larger tech companies) use internships as their primary pipeline for full-time hires — a strong internship performance often converts directly into a full-time offer.
+- They're one of the strongest resume signals for candidates without prior work experience, often outweighing GPA or coursework alone.
+- They expose you to professional workflows (Git collaboration, code review, Agile ceremonies, on-call/production support) that are difficult to learn any other way.
+- They help you validate (or reconsider) career direction before committing to a full-time role in a specific domain or company type.
+
+=====================================================
+2. TYPES OF INTERNSHIPS
+=====================================================
+- Summer internships: the most common format, typically 8-12 weeks, heavily recruited for by large tech companies (often with applications opening 6-9 months in advance).
+- Off-cycle/semester internships: part-time or full-time internships during the school year, common at startups and some larger companies with rolling internship programs.
+- Co-op programs: longer-term (often 4-8 month) full-time internships, common in certain university programs, providing deeper project ownership than a typical summer internship.
+- Remote internships: increasingly common, especially at startups, offering flexibility but requiring strong self-direction and communication skills since in-person mentorship is limited.
+- Research internships: focused on research contributions (common in AI/ML, often requiring or leading to a publication), typically at larger companies with dedicated research labs or through university-affiliated labs.
+
+=====================================================
+3. HOW TO FIND AND APPLY FOR INTERNSHIPS
+=====================================================
+- University career centers and career fairs: often have direct company partnerships and dedicated recruiting events.
+- Company career pages directly: for target companies, check their careers page and set alerts, since some roles are only posted there.
+- Internship-focused platforms: LinkedIn, Handshake, Wellfound (formerly AngelList, strong for startup internships), Simplify.jobs and other internship-tracking aggregators.
+- Referrals: reaching out to alumni, professors, or professionals on LinkedIn who work at target companies — referrals significantly increase the chance of getting an initial interview, since they help your application get noticed amid high applicant volume.
+- Cold outreach: emailing or messaging engineers/hiring managers directly at smaller companies/startups that may not have formalized recruiting pipelines — a well-written, specific message can stand out precisely because it's less common.
+- Apply early: many large tech companies open summer internship applications 6-9 months in advance (e.g., in the fall for the following summer) and fill positions on a rolling basis — applying late in the cycle significantly reduces your chances even if you're qualified.
+- Apply broadly but thoughtfully: apply to a wide range of company sizes (big tech, mid-size, startups) rather than only targeting the most competitive companies, to maximize realistic chances of landing an offer.
+
+=====================================================
+4. RESUME & APPLICATION TIPS FOR INTERNSHIPS
+=====================================================
+- Lead with projects if you lack formal work experience — a couple of well-built, deployed personal projects can carry as much weight as a first internship for early applications.
+- Include relevant coursework only if it's directly relevant and you lack other technical evidence — as you gain project/internship experience, phase coursework out in favor of concrete work.
+- Quantify impact wherever possible, even in academic/personal projects ("Built a REST API handling X requests," "Reduced load time by X%").
+- Tailor your resume to the specific internship posting — mirror relevant keywords and prioritize the most relevant projects/skills for that particular role.
+- Keep it to one page — internship resumes should almost never exceed one page given typically limited experience.
+- Include a GitHub link and, if applicable, a portfolio site — for technical internships, this is often reviewed as closely as the resume itself.
+
+=====================================================
+5. THE INTERNSHIP INTERVIEW PROCESS
+=====================================================
+- Typically 1-3 rounds for internships (shorter than full-time processes): often an initial screening (recruiter call or online assessment), followed by one or two technical interviews.
+- Online assessments (OA): common first-round filters at larger companies — usually 1-2 coding problems on a platform like HackerRank or CodeSignal, timed and unproctored or lightly proctored.
+- Technical interviews: focus heavily on DSA fundamentals (arrays, strings, basic trees/graphs) rather than advanced system design, given the entry-level nature of most internship roles.
+- Behavioral component: usually lighter than full-time interviews but still present — expect "tell me about yourself," a project you're proud of, and why you're interested in the company/role.
+- For research internships specifically: expect deeper technical discussion of your past projects/coursework and potentially a discussion of research interests aligned with the team's focus areas.
+- Preparation should mirror general technical interview prep (see the DSA and interview_preparation knowledge files) but calibrated to entry-level expectations — strong fundamentals matter more than depth of specialized experience.
+
+=====================================================
+6. HOW TO MAKE THE MOST OF AN INTERNSHIP
+=====================================================
+- Ask clarifying questions early and often — asking thoughtful questions is a sign of engagement, not a lack of competence; struggling silently for too long on something a quick question would resolve wastes time and signals poor communication instead.
+- Set up regular 1:1 check-ins with your manager/mentor if they're not already scheduled — use this time to clarify expectations, get feedback, and surface blockers proactively.
+- Document your work as you go (a running log of what you built, decisions made, and challenges solved) — this makes writing your final presentation, resume bullet points, and future interview stories dramatically easier.
+- Seek feedback proactively rather than waiting for a formal review — asking "is this the direction you'd expect?" partway through a task saves significant rework compared to finding out at the end.
+- Build genuine relationships with your team beyond just your immediate tasks — attend team social events, ask engineers about their own career paths, and be visibly curious; this matters both for full-time conversion and for future references/referrals.
+- Take ownership of your project, even if it's small — proactively suggest improvements, ask about edge cases, and think about your work as production code, not just a scoped-down exercise.
+- Communicate progress clearly and proactively in team stand-ups/updates — visibility matters, especially in remote or hybrid settings where your manager can't casually observe your day-to-day work.
+- Say yes to opportunities to present your work, even if it feels uncomfortable — presenting to the team (or at an intern demo day) is excellent practice for a skill that matters throughout your career.
+
+=====================================================
+7. CONVERTING AN INTERNSHIP INTO A FULL-TIME OFFER
+=====================================================
+- Understand explicitly (ask your manager directly if unclear) what "success" looks like for your internship — companies often have specific criteria for return offers, and knowing them lets you focus effort accordingly.
+- Consistently deliver on your assigned project, but also demonstrate curiosity and initiative beyond the minimum scope — this differentiates candidates who get return offers from those who simply "complete the internship."
+- Build visibility with people beyond your direct manager — engineers who worked with you across the team are often informally consulted during return-offer decisions.
+- Ask directly, toward the end of the internship, about return-offer timelines and what feedback they have for you — this shows proactive interest and gives you a clearer signal on your standing.
+- If you don't receive a return offer, always ask for specific feedback — this is valuable, direct information for improving your next internship or full-time search, and most managers are willing to share it if asked respectfully.
+
+=====================================================
+8. COMMON INTERVIEW TOPICS FOR INTERNSHIP ROLES
+=====================================================
+- Standard DSA fundamentals: arrays, strings, hash maps, basic recursion, simple tree/graph traversal (see the dsa.txt file for full depth).
+- Basic knowledge of your primary language/stack (whatever you've listed on your resume) — expect questions probing the depth of your actual understanding of any technology you claim familiarity with.
+- Walkthrough of a project on your resume — be ready to explain technical decisions, challenges faced, and what you'd do differently.
+- "Why this company/team?" — company-specific research matters even at the internship level; generic answers stand out negatively.
+- "Tell me about a time you worked in a team" or "faced a challenge" — basic behavioral/STAR-style questions, calibrated to academic/project experience rather than extensive work history.
+- For technical/CS-adjacent internships beyond pure software (e.g., data, ML): expect role-specific fundamentals (see database.txt, aiml.txt for depth in those areas).
+
+=====================================================
+9. CAREER ADVICE
+=====================================================
+- Start applying earlier than feels necessary — internship recruiting cycles, especially at larger companies, move faster than most students expect.
+- Don't wait for the "perfect" resume or skill level to start applying — apply while continuing to build projects and skills in parallel; many internships value trajectory and fundamentals over polish.
+- A smaller company/startup internship with real ownership can sometimes provide more valuable, hands-on experience than a highly structured big-tech internship with a narrower scope — both paths are legitimate depending on your goals.
+- Multiple smaller or less prestigious internships done well can build a stronger overall trajectory than waiting and doing nothing while only targeting top-tier companies.
+- Treat every internship, regardless of company size or prestige, as an opportunity to build genuine references and a portfolio of real, demonstrable work — this compounds significantly for your full-time search afterward.
+
+=====================================================
+10. HOW TO IMPROVE YOUR INTERNSHIP READINESS
+=====================================================
+- Build and deploy at least 2-3 solid personal projects before applying — this is often the single highest-leverage thing you can do to stand out with limited formal experience.
+- Practice explaining your projects concisely and clearly out loud — many candidates with good technical work lose ground in interviews simply by struggling to communicate what they built and why.
+- Get comfortable with Git/GitHub collaboration workflows before your internship starts (see the github.txt file) — arriving already fluent with branches, PRs, and code review lets you focus energy on learning the actual codebase and product on day one.
+- Practice basic DSA consistently in the months leading up to internship interviews — even 30 minutes a few times a week over several months builds meaningfully more durable skill than cramming intensely right before interviews.
+- Reach out to people who've interned at companies you're targeting (via LinkedIn or your university network) and ask genuine questions about their interview experience and day-to-day work — direct, current insight is far more valuable than generic online guides alone.
+- Practice mock interviews specifically calibrated to entry-level expectations (easy-to-medium DSA, basic behavioral) rather than over-preparing for senior-level system design content that's unlikely to be asked.
+
+=====================================================
+11. LEARNING RESOURCES
+=====================================================
+- Internship-specific job boards: Handshake, Simplify.jobs, LinkedIn (filter by "Internship"), Wellfound for startups.
+- Communities: r/csMajors and r/cscareerquestions (active discussion specifically around internship recruiting cycles, timelines, and company-specific interview experiences).
+- Application tracking: maintain a simple spreadsheet tracking company, role, application date, status, and follow-up dates — recruiting cycles involve dozens of applications, and organization meaningfully improves follow-through.
+- Mock interview practice: Pramp (free peer mock interviews), interviewing.io.
+
+=====================================================
+12. COMMON MISTAKES AND HOW TO AVOID THEM
+=====================================================
+- Applying too late in the recruiting cycle — many strong candidates lose out simply due to timing, not qualification.
+- Sending the same generic resume/application to every company without any tailoring.
+- Being passive during the internship — waiting to be told exactly what to do instead of proactively asking questions, seeking feedback, and showing initiative.
+- Not documenting your work/impact as you go, then struggling to write meaningful resume bullet points or interview stories afterward.
+- Focusing only on completing assigned tasks and neglecting relationship-building with the broader team — this hurts both the internship experience and future return-offer/referral chances.
+- Being afraid to ask "obvious" questions — most managers strongly prefer an intern who asks early over one who silently struggles or, worse, proceeds confidently in the wrong direction.
+- Not asking for feedback throughout the internship, only realizing at the very end (or after rejection) what could have been improved.
+
+=====================================================
+13. CAREER GROWTH & NEXT STEPS
+=====================================================
+- A single internship is rarely the whole picture — most competitive full-time candidates have completed 1-3 internships across their academic career, ideally showing some progression in scope/responsibility.
+- Use each internship experience directly in future interviews and resumes — specific, real project stories from internships are generally more compelling to full-time interviewers than academic projects alone.
+- If your internship doesn't convert to a full-time offer, that's common and not necessarily a reflection of your overall potential — many strong engineers didn't convert their first internship; use the direct feedback you gather to improve your next search.
+- As you complete more internships, aim to progressively take on more ambiguous, higher-ownership projects — this trajectory (from well-scoped tasks to more independent ownership) is exactly what full-time hiring managers look for as evidence of growth.

@@ -1,5 +1,6 @@
 import google.generativeai as genai
-import numpy as np        # numpy converts numbers into arrays
+import numpy as np   # numpy converts numbers into arrays
+import json    
 import faiss              # used for similarity search of vectors (Facebook AI Similarity Search)
 import os
 from dotenv import load_dotenv
@@ -10,28 +11,8 @@ genai.configure(
     api_key=os.getenv("GEMINI_API_KEY")
 )
 
-jobs = [
-    {
-        "role": "Java Backend Developer",
-        "skills": "Java, Spring Boot, SQL, REST API"
-    },
-    {
-        "role": "Frontend Developer",
-        "skills": "HTML, CSS, JavaScript, React"
-    },
-    {
-        "role": "Python Developer",
-        "skills": "Python, Django, Flask, SQL"
-    },
-    {
-        "role": "Data Analyst",
-        "skills": "Python, SQL, Excel, Power BI"
-    },
-    {
-        "role": "Machine Learning Engineer",
-        "skills": "Python, Machine Learning, TensorFlow, Deep Learning"
-    }
-]
+with open("data/jobs/job.json","r") as file:    # opens the jobs folder
+    jobs = json.load(file)                      # loads all the data into "jobs"
 
 job_texts = []
 
@@ -67,7 +48,7 @@ dim = job_vectors.shape[1]          #finds out the size(no.of dimensions) of the
 index = faiss.IndexFlatIP(dim)      #index is used to store the vectors of size 'dim' and 'IndexFlatIP' for comapring inner products
 index.add(job_vectors)
 
-def find_matching_jobs(query, top_k=3):     # used to find out top 3 jobs
+def find_matching_jobs(query, top_k=5):     # used to find out top 3 jobs
     query_embedding = embed(query)
 
     query_vector = np.array([query_embedding]).astype("float32")
